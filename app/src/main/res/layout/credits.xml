@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+
+    <ImageView android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/credits"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside">
+    </ImageView>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/credits_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:textColor="#454545"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_centerInParent="true" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <ImageView android:layout_width="wrap_content"
+        android:src="@drawable/tridosha"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"/>
+    <Button
+        android:id="@+id/start_questionnaire_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="@string/start_questionnaire_label" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="@string/about_label" />
+
+        <Button
+            android:id="@+id/vpk_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="@string/vpk_label" />
+
+    <Button
+        android:id="@+id/report_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="@string/report_label" />
+    </LinearLayout>
+    </ScrollView>

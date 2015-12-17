@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@android:color/white" android:id="@+id/splash_layout">
+
+
+    <TextView
+        android:id="@+id/app_full_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:text="@string/app_full_name"
+        android:layout_centerInParent="true" />
+
+    <ImageView android:layout_width="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/ayurvedic_doshas"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"/>
+
+    <ImageView android:layout_width="wrap_content"
+        android:id="@+id/vpk"
+        android:adjustViewBounds="true"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:src="@drawable/vpk"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/app_continue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:text="@string/app_rights"
+        android:layout_centerInParent="true" />
+
+    </LinearLayout>

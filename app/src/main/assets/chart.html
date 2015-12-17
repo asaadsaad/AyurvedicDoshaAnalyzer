@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'ITEM');
+      data.addColumn('number', 'VALUE');
+      data.addRows([
+        ['Vata', Android.getVata()],
+        ['Pitta', Android.getPitta()],
+        ['Kapha', Android.getKapha()]
+      ]);
+
+      // Set chart options
+      var options = {'title':'Click on the chart for more details',
+                     'width':750,
+                     'height':600};
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+
+  <body>
+ <!--Div that will hold the pie chart-->
+    <div id="chart_div" style="width:600; height:600"></div>
+ <h3>Kapha Dosha</h3>
+ <p>Kapha doshas have strong, steady energy and great physical strength. They therefore can excel at endurance sports such as long distance running, aerobics, dance, soccer, rowing, and so on. Any kind of aerobic activity that works up a good sweat is powerful for clearing Kapha congestion and sluggishness.</p>
+ <p>If you are predominantly Kapha, your biggest challenge may be finding the motivation to exercise. If you have not been exercising for a while, you can break the inertia by starting with brisk walking, beginning with half an hour.</p>
+ <p>To feel a noticeable improvement in vitality, it's important to experience some sweating during your exercise, so you may want try wearing a two-layer exercise outfit, such as an all-cotton sweat suit under a nylon suit. Gradually increase your exercise to include jogging, hiking, and bicycling.</p>
+
+ <h3>Pitta Dosha</h3>
+ <p>Pitta types have a strong drive and tend to like challenging sports such as skiing, hiking, tennis, and mountain climbing. Because of their competitive nature, Pittas need to be careful not to increase their stress while exercising stewing over every bad golf shot or wanting to win at all costs.</p>
+ <p>If you are a Pitta type, you may especially enjoy winter sports of all kinds because you can handle cold better than Kaphas and Vatas. Pittas tend to have less endurance than Kaphas but are good at all exercise in moderation. You might like to try long-distance bicycling or rollerblading. You also will benefit from taking a leisurely walk outdoors in a beautiful area. This will give you a change from your usual determined pace, allowing you to deeply experience nature's beauty. Finally, swimming is an ideal exercise for Pitta dosha. The water cools the heat of PItta and relieves the accumulated tension of the day.</p>
+
+   <h3>Vata Dosha</h3>
+ <p>Naturally enthusiastic, Vata types have bursts of energy but tend to tire quickly. If they are out of balance, Vatas are particularly prone to getting carried away and pushing themselves too hard. Feeling dizzy, exhausted, or on the verge of cramping are all signs of Vata imbalance.</p>
+ <p>Those who are predominantly Vata benefit enormously from grounding exercises such as yoga, easy walking, bicycling, and dancing. These activities help Vata doshas develop much-needed strength, balance, and agility as long as they don't overdo it. In the winter, indoor exercise is recommended for Vatas because they are averse to cold and don't have enough fat and muscle to protect themselves from the elements.</p>
+ <p>In short, choosing exercises suited to your mind-body type will give you the greatest benefits and enjoyment. If you are straining to follow a workout program for the sake of your health but aren't enjoying it, you are not likely to stick with it.</p>
+ <p>No matter what your current fitness level is, the key is to move your body and breathe. Develop a regular exercise routine and you will experience the flow of vital energy and fulfillment.</p>
+  </body>
+</html>

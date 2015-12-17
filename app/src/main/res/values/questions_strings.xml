@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number_of_questions">41</string>
+    <string-array name="question1">
+        <item>1</item>
+        <item>Body size?</item>
+        <item>Thin build</item>
+        <item>Medium build</item>
+        <item>Large build</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>2</item>
+        <item>Body weight?</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Heavy side</item>
+    </string-array>
+
+    <string-array name="question3">
+        <item>3</item>
+        <item>Weight change?</item>
+        <item>Trouble gaining</item>
+        <item>Can gain but lose quickly</item>
+        <item>Gains weight easily, hard to lose</item>
+    </string-array>
+
+
+    <string-array name="question4">
+        <item>4</item>
+        <item>Skin type?</item>
+        <item>Thin, dry</item>
+        <item>Smooth, combination skin</item>
+        <item>Thick, oily</item>
+    </string-array>
+
+    <string-array name="question5">
+        <item>5</item>
+        <item>Skin texture?</item>
+        <item>Cold, roughness, light color</item>
+        <item>Warm, reddish, freckles</item>
+        <item>Cool, pale</item>
+    </string-array>
+
+    <string-array name="question6">
+        <item>6</item>
+        <item>Hair?</item>
+        <item>Dry, brittle, scarce, gets knotted</item>
+        <item>Straight, oily, prone to hair loss</item>
+        <item>Thick, curly, oily, wavy, luxuriant</item>
+    </string-array>
+
+    <string-array name="question7">
+        <item>7</item>
+        <item>Hair color?</item>
+        <item>Brown, black</item>
+        <item>Blond, gray, red</item>
+        <item>Dark black, dark brown</item>
+    </string-array>
+
+    <string-array name="question8">
+        <item>8</item>
+        <item>Teeth?</item>
+        <item>Big, roomy, stick out, thin gums</item>
+        <item>Medium size, soft, tender gums</item>
+        <item>Healthy, white, strong gums</item>
+    </string-array>
+
+    <string-array name="question9">
+        <item>9</item>
+        <item>Nose?</item>
+        <item>Uneven shape, deviated septum</item>
+        <item>Long, pointed, red nose tip</item>
+        <item>Short, rounded, button nose</item>
+    </string-array>
+
+    <string-array name="question10">
+        <item>10</item>
+        <item>Eyes?</item>
+        <item>Small, sunken, dry, active, freq.blinking</item>
+        <item>Sharp, sensitive to light</item>
+        <item>Big, calm</item>
+    </string-array>
+
+    <string-array name="question11">
+        <item>11</item>
+        <item>Eye color?</item>
+        <item>Black, brown</item>
+        <item>bright gray, green, yellow/red</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="question12">
+        <item>12</item>
+        <item>Nails?</item>
+        <item>Dry, rough, easily broken</item>
+        <item>Sharp, flexible, long, reddish tint</item>
+        <item>Thick, smooth, shiny surface</item>
+    </string-array>
+
+    <string-array name="question13">
+        <item>13</item>
+        <item>Lip?</item>
+        <item>Dry, cracked</item>
+        <item>Often inflamed</item>
+        <item>Smooth, large</item>
+    </string-array>
+
+    <string-array name="question14">
+        <item>14</item>
+        <item>Lip color?</item>
+        <item>Black or brown tint</item>
+        <item>Red or yellowish</item>
+        <item>Pale</item>
+    </string-array>
+
+    <string-array name="question15">
+        <item>15</item>
+        <item>Chin?</item>
+        <item>Thin and angular</item>
+        <item>Tapered</item>
+        <item>Rounded, big</item>
+    </string-array>
+
+    <string-array name="question16">
+        <item>16</item>
+        <item>Cheeks?</item>
+        <item>Sunken, lines or wrinkles</item>
+        <item>Flat and smooth</item>
+        <item>Big or round</item>
+    </string-array>
+
+    <string-array name="question17">
+        <item>17</item>
+        <item>Neck?</item>
+        <item>Long, thin</item>
+        <item>Medium</item>
+        <item>Wide</item>
+    </string-array>
+
+    <string-array name="question18">
+        <item>18</item>
+        <item>Chest?</item>
+        <item>Small, flat</item>
+        <item>Moderate</item>
+        <item>Broad chested</item>
+    </string-array>
+
+    <string-array name="question19">
+        <item>19</item>
+        <item>Belly?</item>
+        <item>Small, flat</item>
+        <item>Moderate</item>
+        <item>Large, defined</item>
+    </string-array>
+
+    <string-array name="question20">
+        <item>20</item>
+        <item>Bellybutton?</item>
+        <item>Small, irregular</item>
+        <item>Oval, superficial</item>
+        <item>Big, deep, round</item>
+    </string-array>
+
+    <string-array name="question21">
+        <item>21</item>
+        <item>Hips?</item>
+        <item>Small or thin</item>
+        <item>Moderate</item>
+        <item>Big</item>
+    </string-array>
+
+    <string-array name="question22">
+        <item>22</item>
+        <item>Joints?</item>
+        <item>Cracking noise</item>
+        <item>Moderate</item>
+        <item>Large, lubricated</item>
+    </string-array>
+
+    <string-array name="question23">
+        <item>23</item>
+        <item>Appetite?</item>
+        <item>Irregular in frequency and magnitude</item>
+        <item>Strong, cannot skip meals</item>
+        <item>Steady, regular, skips meals</item>
+    </string-array>
+
+    <string-array name="question24">
+        <item>24</item>
+        <item>Taste preference?</item>
+        <item>Sweet, sour, salty</item>
+        <item>Sweet, bitter, astringent</item>
+        <item>Bitter, pungent, astringent</item>
+    </string-array>
+
+    <string-array name="question25">
+        <item>25</item>
+        <item>Thirst?</item>
+        <item>Variable</item>
+        <item>Need water regularly</item>
+        <item>Sparse need for water</item>
+    </string-array>
+
+    <string-array name="question26">
+        <item>26</item>
+        <item>Digestion?</item>
+        <item>Irregular</item>
+        <item>Quick</item>
+        <item>Slow</item>
+    </string-array>
+
+
+
+    <string-array name="question27">
+        <item>27</item>
+        <item>When there is indigestion?</item>
+        <item>Tendency to constipation, forms gas</item>
+        <item>Causes burning, heart burn, reflux</item>
+        <item>Forms mucous</item>
+    </string-array>
+
+    <string-array name="question28">
+        <item>28</item>
+        <item>Elimination?</item>
+        <item>Dry</item>
+        <item>Loose</item>
+        <item>Thick, sluggish</item>
+    </string-array>
+
+    <string-array name="question29">
+        <item>29</item>
+        <item>Physical activity?</item>
+        <item>Always active</item>
+        <item>Moderate</item>
+        <item>Slow, measured</item>
+    </string-array>
+
+
+
+    <string-array name="question30">
+        <item>30</item>
+        <item>Mental activity?</item>
+        <item>Always active</item>
+        <item>Moderate</item>
+        <item>Calm</item>
+    </string-array>
+
+    <string-array name="question31">
+        <item>31</item>
+        <item>Personality?</item>
+        <item>Vivacious, talkative, social, outgoing</item>
+        <item>Likes to be in control, intense, ambitious</item>
+        <item>Reserved, laid back, concerned</item>
+    </string-array>
+
+    <string-array name="question32">
+        <item>32</item>
+        <item>Emotional response when stressed?</item>
+        <item>Anxiety, fear</item>
+        <item>Anger, jealousy</item>
+        <item>Greedy, possessive, withdrawn</item>
+    </string-array>
+
+    <string-array name="question33">
+        <item>33</item>
+        <item>Faith or beliefs?</item>
+        <item>Variable</item>
+        <item>Dedicated/strong</item>
+        <item>Consistent</item>
+    </string-array>
+
+    <string-array name="question34">
+        <item>34</item>
+        <item>Intellectual response?</item>
+        <item>Quick, not detailed</item>
+        <item>Accurate, timely</item>
+        <item>Paced but exact</item>
+    </string-array>
+
+    <string-array name="question35">
+        <item>35</item>
+        <item>Memory?</item>
+        <item>Good short term, quick to forget</item>
+        <item>Medium but accurate</item>
+        <item>Slow to remember but then sustained</item>
+    </string-array>
+
+    <string-array name="question36">
+        <item>36</item>
+        <item>Career, life preference?</item>
+        <item>Creative arts, designing</item>
+        <item>Science or engineering</item>
+        <item>Management, human relations, care giving</item>
+    </string-array>
+
+    <string-array name="question37">
+        <item>37</item>
+        <item>Environment?</item>
+        <item>Easily feels cold</item>
+        <item>Intolerant of heat</item>
+        <item>Uncomfortable in humidity</item>
+    </string-array>
+
+    <string-array name="question38">
+        <item>38</item>
+        <item>Sleep?</item>
+        <item>Short, broken up</item>
+        <item>moderate and sound</item>
+        <item>Deep and long</item>
+    </string-array>
+
+    <string-array name="question39">
+        <item>39</item>
+        <item>Dreams?</item>
+        <item>Multiple and quick, fearful</item>
+        <item>Fiery, often about conflicts</item>
+        <item>Slow, romantic</item>
+    </string-array>
+
+    <string-array name="question40">
+        <item>40</item>
+        <item>Speech?</item>
+        <item>Rapid, hither thither</item>
+        <item>Precise, articulate</item>
+        <item>Slow, monotonous</item>
+    </string-array>
+
+    <string-array name="question41">
+        <item>41</item>
+        <item>Financial</item>
+        <item>Buy on impulse</item>
+        <item>Spends money on luxuries</item>
+        <item>Good at Saving money</item>
+    </string-array>
+</resources>
